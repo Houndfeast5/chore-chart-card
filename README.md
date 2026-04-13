@@ -32,7 +32,7 @@ A Home Assistant Lovelace custom card for tracking family chores. Built for real
 
 ### Manual
 
-1. Download `chore-chart-card.js` from the [latest release](https://github.com/YOUR_GITHUB_USERNAME/chore-chart-card/releases/latest)
+1. Download `chore-chart-card.js` from the [latest release](https://github.com/Houndfeast5/chore-chart-card/releases/latest)
 2. Copy it to `config/www/chore-chart-card.js`
 3. Add it as a resource:
    - **Settings → Dashboards → Resources → Add Resource**
@@ -144,7 +144,7 @@ State is stored in `sensor.chore_chart_data` as entity attributes. Every time an
 Single vanilla JS file, no build step.
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/chore-chart-card
+git clone https://github.com/Houndfeast5/chore-chart-card
 cd chore-chart-card
 cp chore-chart-card.js /path/to/ha/config/www/
 ```
